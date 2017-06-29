@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
 @import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
-
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Raleway');
 body {
   padding-top: 70px;
   background-color: #333533;
@@ -13,7 +13,7 @@ body {
 }
 
 .navbar-default {
-  background-color: #040404;
+  background-color: #000;
   border: 0;
 }
 
@@ -30,7 +30,7 @@ body {
   font-size: 16px;
 }
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
-  color: #E8EDDF;
+  color: #F5CB5C;
 }
 
 header {
@@ -41,4 +41,16 @@ header img {
   max-height: 100%;
   border-radius: 10px;
   box-shadow: -1px 2px 19px 2px rgba(252,252,252,1);
+}
+header article p {
+  color: #FCFCFC;
+  margin-top: 80px;
+  line-height: 150%;
+  font-family: 'Playfair Display', serif;
+  max-width: 50%;
+  font-size: 1.2em;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  box-shadow: 1px 1px 7px 1px rgba(252,252,252,1);
 }
