@@ -89,9 +89,22 @@ header #main-logo {
 .class-list {
   list-style: none;
   font-size: 1.2em;
+  font-family: 'Raleway', sans-serif;
 }
 
 #contact {
   margin-top: 120px;
   margin-bottom: 120px;
+}
+#my-foot {
+    background-color: #000;
+    color: #ffffff;
+    padding-left: 140px;
+    padding-top: 10px;
+    height: 40px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#thankyou {
+  margin-top: 200px;
 }
