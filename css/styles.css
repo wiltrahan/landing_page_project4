@@ -4,7 +4,6 @@
 body {
   padding-top: 70px;
   background-color: #FAFBFB;
-
 }
 
 .container-fluid {
@@ -40,52 +39,50 @@ header #main-logo {
   max-width: 100%;
   max-height: 100%;
   border-radius: 10px;
-  box-shadow: -1px 2px 19px 2px rgba(51,53,51,1);
+  box-shadow: -1px 2px 19px 5px rgba(250,251,251,0.9);
 
 }
-/*article {
-  height: 600px;
-  border: 1px solid red;
-}*/
-article p {
-  color: #FCFCFC;
-  /*margin-top: 80px;*/
-  line-height: 140%;
+
+#landing {
+  height: 700px;
+}
+
+#main-info {
+  float: left;
+  color: #040404;
+  line-height: 160%;
   font-family: 'Playfair Display', serif;
-  max-width: 50%;
-  font-size: 1.1em;
+  font-size: 1.4em;
   padding: 20px;
-  background: rgba(0, 0, 0, 0.4);
-  border-radius: 2px;
+  margin-left: 20px;
+  margin-top: 30px;
+  border-radius: 10px;
+  width: 75%;
 }
-#logo {
-  height: 600px;
 
-}
 #logo-top {
   display: flex;
   justify-content: flex-end;
-  padding-right: 280px;
-  margin-top: 30px;
+  margin-top: 120px;
   margin-bottom: 20px;
+  padding-right: 20px;
 }
 #logo-bottom {
   display: flex;
   justify-content: flex-end;
-  padding-right: 280px;
+  padding-right: 20px;
 }
-#sq1 {
-  width: 270px;
-  height: 270px;
+.logo-pics {
+  width: 200px;
+  height: 170px;
+  border-radius: 10px;
+  filter: grayscale(100%);
 }
 #sq2 {
-  width: 270px;
-  height: 270px;
   margin-right: 20px;
-  border-radius: 2px;
 }
-#sq3 {
-  width: 270px;
-  height: 270px;
-  border-radius: 2px;
+
+.class-list {
+  list-style: none;
+  font-size: 1.2em;
 }
