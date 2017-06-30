@@ -82,6 +82,10 @@ header #main-logo {
   margin-right: 20px;
 }
 
+.service-heading {
+  margin-top: 60px;
+}
+
 .class-list {
   list-style: none;
   font-size: 1.2em;
