@@ -90,3 +90,8 @@ header #main-logo {
   list-style: none;
   font-size: 1.2em;
 }
+
+#contact {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
