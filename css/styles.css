@@ -117,6 +117,16 @@ header #main-logo {
   text-align: left;
 }
 
+.btn-info {
+  background-color: #A2A3A2;
+  border: 0;
+}
+.btn-info:hover {
+    color: #fff;
+    background-color: #F5CB5C;
+    border-color: #269abc;
+}
+
 #contact {
   margin-top: 120px;
   margin-bottom: 120px;
@@ -132,12 +142,14 @@ header #main-logo {
 
 #thankyou {
   margin-top: 160px;
+  margin-bottom: 80px;
 }
 
 #vids {
   margin-top: 50px;
   display: flex;
   justify-content: center;
+  margin-bottom: 80px;
   iframe {
     max-width: 560px;
     width: 100%;
