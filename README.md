@@ -18,7 +18,7 @@ Create a project landing page for your company, project, or group. (create one) 
 - At least 1 image (not including logo) *complete*
 - Form element *complete*
 
-###Form requirements:
+### Form requirements:
 - Email *complete*
 - Email validation *complete*
 - Submit button *complete*
