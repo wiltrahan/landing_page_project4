@@ -59,6 +59,12 @@ header #main-logo {
   border-radius: 10px;
   width: 75%;
 }
+@media (max-width: 1200px) {
+    #main-info {
+      line-height: 140%;
+      font-size: 1.2em;
+    }
+}
 
 #logo-top {
   display: flex;
@@ -67,6 +73,7 @@ header #main-logo {
   margin-bottom: 20px;
   padding-right: 20px;
 }
+
 #logo-bottom {
   display: flex;
   justify-content: flex-end;
@@ -78,6 +85,13 @@ header #main-logo {
   border-radius: 10px;
   filter: grayscale(100%);
 }
+
+@media (max-width: 644px) {
+    .logo-pics {
+      visibility: hidden;
+    }
+}
+
 #sq2 {
   margin-right: 20px;
 }
@@ -85,11 +99,22 @@ header #main-logo {
 .service-heading {
   margin-top: 60px;
 }
+#services h1, h2, h4 {
+  font-family: 'Lato', sans-serif;
+}
+
+#services2 h1, h2, h4 {
+  font-family: 'Lato', sans-serif;
+}
 
 .class-list {
   list-style: none;
   font-size: 1.2em;
   font-family: 'Raleway', sans-serif;
+}
+
+.class-list li {
+  text-align: left;
 }
 
 #contact {
@@ -106,5 +131,15 @@ header #main-logo {
 }
 
 #thankyou {
-  margin-top: 200px;
+  margin-top: 160px;
+}
+
+#vids {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  iframe {
+    max-width: 560px;
+    width: 100%;
+  }
 }
